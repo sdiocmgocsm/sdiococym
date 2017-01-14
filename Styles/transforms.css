@@ -49,7 +49,7 @@ ul#dates {
 
 
     ul#dates li a {
-        font-size: 15px !important;
+        font-size: 35px !important;
     }
 
 div.sectionContainers {
@@ -110,5 +110,24 @@ div#registerContainer {
         bottom: 0;
     }
 
-div#contactusContainer {
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    ul#dates li a {
+        font-size: 15px !important;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
 }
