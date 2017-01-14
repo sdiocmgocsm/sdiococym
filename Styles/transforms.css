@@ -43,9 +43,14 @@ div#imageContainer h3 {
     color: #FFF;
 }
 
-ul#dates li {
-    width: auto !important;
+ul#dates {
+    width: 100% !important;
 }
+
+
+    ul#dates li a {
+        font-size: 15px !important;
+    }
 
 div.sectionContainers {
     height: inherit;
