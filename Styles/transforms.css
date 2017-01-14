@@ -1,0 +1,109 @@
+﻿body {
+    font-family: 'Fjord One', serif;
+    background: #ffffff none repeat scroll 0 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.fixed-navigation {
+    background: #ffffff none repeat scroll 0 0;
+    font-size: 1.2em;
+    border-bottom: 1px solid #333;
+}
+
+    .fixed-navigation .navbar-brand {
+        color: #333;
+        font-size: 1.2em;
+    }
+
+    .fixed-navigation .navbar-nav > li > a {
+        color: #333;
+    }
+
+
+div.image-container {
+    float: left !important;
+    position: relative !important;
+}
+
+    div.image-container img {
+        width: 100% !important;
+        height: inherit !important;
+    }
+
+div#imageContainer h3 {
+    position: absolute !important;
+    top: 300px !important;
+    text-align: right !important;
+    padding: 0 !important;
+}
+
+.bverse {
+    color: #FFF;
+}
+
+ul#dates li {
+    width: auto !important;
+}
+
+div.sectionContainers {
+    height: inherit;
+    display: inline-block !important;
+    width: 100% !important;
+    margin: 0;
+}
+
+    div.sectionContainers div {
+        display: block;
+        top: 50px;
+    }
+
+div#speakerContainer {
+    background-color: #6b443b;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+    div#speakerContainer h1 {
+        color: #fff;
+    }
+
+img.sImage {
+    height: 250px;
+    margin: 2% 0;
+}
+
+p.speakerContent {
+    text-align: left;
+    color: #fff;
+    margin: 1% 8%;
+    font-size: 18px;
+}
+
+p.aboutcontent {
+    text-align: left;
+    color: #fff;
+    margin: 10% 8%;
+    font-size: 18px;
+}
+
+div#aboutusContainer {
+    background-color: #042224;
+    overflow-y: scroll;
+}
+
+div#registerContainer {
+    height: 700px !important;
+    width: 90%;
+    padding-bottom: 0 0 50px 0;
+}
+
+    div#registerContainer iframe {
+        height: 92% !important;
+        width: inherit !important;
+        bottom: 0;
+    }
+
+div#contactusContainer {
+}
