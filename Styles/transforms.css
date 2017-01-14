@@ -47,11 +47,6 @@ ul#dates {
     width: 100% !important;
 }
 
-
-    ul#dates li a {
-        font-size: 35px !important;
-    }
-
 div.sectionContainers {
     height: inherit;
     display: inline-block !important;
@@ -131,3 +126,25 @@ div#registerContainer {
   and (orientation: portrait) { 
 
 }
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+     ul#dates li a {
+        font-size: 35px !important;
+    }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+     ul#dates li a {
+        font-size: 35px !important;
+    }
+}
+
