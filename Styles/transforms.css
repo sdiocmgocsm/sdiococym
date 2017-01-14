@@ -105,7 +105,7 @@ div#registerContainer {
 }
 
     div#registerContainer iframe {
-        height: inherit !important;
+        height: 95% !important;
         width: inherit !important;
         bottom: 0;
     }
@@ -129,6 +129,10 @@ div#registerContainer {
     }
 
     p.aboutcontent {
+        font-size: 14px !important;
+    }
+
+    p.bverse {
         font-size: 14px !important;
     }
 }
@@ -161,6 +165,10 @@ div#registerContainer {
     p.aboutcontent {
         font-size: 15px !important;
     }
+
+    p.bverse {
+        font-size: 15px !important;
+    }
 }
 
 /* Portrait */
@@ -189,6 +197,10 @@ div#registerContainer {
     }
 
     p.aboutcontent {
+        font-size: 17px !important;
+    }
+
+    p.bverse {
         font-size: 17px !important;
     }
 }
@@ -223,6 +235,10 @@ div#registerContainer {
     p.aboutcontent {
         font-size: 17px !important;
     }
+
+    p.bverse {
+        font-size: 17px !important;
+    }
 }
 
 /* Portrait */
@@ -248,7 +264,7 @@ div#registerContainer {
         font-size: 20px !important;
     }
 
-    .bverse {
+    p.bverse {
         font-size: 26px !important;
     }
 }
@@ -272,7 +288,7 @@ div#registerContainer {
         font-size: 20px !important;
     }
 
-    .bverse {
+    p.bverse {
         font-size: 26px !important;
     }
 }
