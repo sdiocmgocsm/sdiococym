@@ -47,6 +47,10 @@ ul#dates {
     width: 100% !important;
 }
 
+ul.eventslist{
+    list-style:disc !important;
+}
+
 div.sectionContainers {
     height: inherit;
     display: inline-block !important;
