@@ -20,8 +20,27 @@
     <script src="../Scripts/jquery-3.1.1.min.js"></script>
     <script src="../Scripts/bootstrap.min.js"></script>
     <script src="../Scripts/jquery.fullPage.min.js"></script>
-    <script src="../Scripts/transformers.js"></script>
     <script src="../Scripts/jquery.timelinr-0.9.6.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+
+            $("#fullContainer").fullpage({
+                anchors: ['homeSection', 'eventsSection', 'speakersSection', 'aboutusSection', 'registerSection', 'contactSection'],
+                menu: '#transMenu',
+                easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
+            });
+
+            //EventManager Code
+            $().timelinr({
+                orientation: 'vertical',
+                issuesSpeed: 500,
+                datesSpeed: 300,
+                startAt: 3,
+                autoPlay: 'true'
+            });
+        });
+    </script>
 
 </head>
 <body>
