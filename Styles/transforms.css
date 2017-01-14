@@ -247,6 +247,10 @@ div#registerContainer {
     p.aboutcontent {
         font-size: 20px !important;
     }
+
+    .bverse {
+        font-size: 25px !important;
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -266,5 +270,9 @@ div#registerContainer {
 
     p.aboutcontent {
         font-size: 20px !important;
+    }
+
+    .bverse {
+        font-size: 25px !important;
     }
 }
