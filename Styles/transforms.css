@@ -127,6 +127,10 @@ div#registerContainer {
     p.speakerContent {
         font-size: 14px !important;
     }
+
+    p.aboutcontent {
+        font-size: 14px !important;
+    }
 }
 
 /* Portrait */
@@ -153,6 +157,10 @@ div#registerContainer {
     p.speakerContent {
         font-size: 15px !important;
     }
+
+    p.aboutcontent {
+        font-size: 15px !important;
+    }
 }
 
 /* Portrait */
@@ -177,6 +185,10 @@ div#registerContainer {
     }
 
     p.speakerContent {
+        font-size: 17px !important;
+    }
+
+    p.aboutcontent {
         font-size: 17px !important;
     }
 }
@@ -207,6 +219,10 @@ div#registerContainer {
     p.speakerContent {
         font-size: 17px !important;
     }
+
+    p.aboutcontent {
+        font-size: 17px !important;
+    }
 }
 
 /* Portrait */
@@ -227,6 +243,10 @@ div#registerContainer {
     p.speakerContent {
         font-size: 20px !important;
     }
+
+    p.aboutcontent {
+        font-size: 20px !important;
+    }
 }
 
 /* ----------- Retina Screens ----------- */
@@ -242,5 +262,9 @@ div#registerContainer {
     img.sImage {
         height: 250px;
         margin: 2% 0;
+    }
+
+    p.aboutcontent {
+        font-size: 20px !important;
     }
 }
