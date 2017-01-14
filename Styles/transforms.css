@@ -105,7 +105,7 @@ div#registerContainer {
 }
 
     div#registerContainer iframe {
-        height: 92% !important;
+        height: inherit !important;
         width: inherit !important;
         bottom: 0;
     }
