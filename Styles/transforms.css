@@ -68,7 +68,6 @@ div.sectionContainers {
 div#speakerContainer {
     background-color: #6b443b;
     text-align: center;
-    overflow-y: scroll;
 }
 
     div#speakerContainer h1 {
@@ -96,7 +95,6 @@ p.aboutcontent {
 
 div#aboutusContainer {
     background-color: #042224;
-    overflow-y: scroll;
 }
 
 div#registerContainer {
